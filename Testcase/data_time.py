@@ -1,6 +1,6 @@
 from selenium import webdriver
 import time
-
+#开始定位
 driver = webdriver.Chrome()
 driver.implicitly_wait(5)
 driver.maximize_window()
